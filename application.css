@@ -1,0 +1,60 @@
+body {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid black 1px;
+}
+div#modernHeader {
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+p#heading {
+	color: white;
+	font-weight: 900;
+	margin-left: 2em;
+}
+div#mainleft1 {
+	width: 49%;
+	border: solid green 1px;
+	float: left;
+	margin: .15em;
+	padding: .15em;
+	margin-top: 3em;
+}
+div#mainright1 {
+	width: 49%;
+	border: solid blue 1px;
+	float: right;
+	margin: .15em;
+	padding: .15em;
+	margin-top: 3em;
+}
+div#footerTest {
+	margin-left: auto;
+	margin-right: auto;
+	border: solid blue 1px;
+	clear: both;
+}
+ul.customMarker {
+	list-style-image: url("images/tv2.jpg");
+}
+table, th, td{
+	border-collapse: collapse;
+	border: solid black 1px;
+}
+
+img.textOnLeft {
+	float: right;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+img.block1 {
+	margin-left: 2em;
+}
+p.noWrap {
+	clear: both;
+	padding-top: 1em;
+}
