@@ -1,12 +1,21 @@
-<HTML>
+<html>
 	<head>
-  <title>Index</title>
-  <link rel="stylesheet" type="text/css" href="application.css">
-</head>
-		<body>
-			<div id="modernHeader"><p id="heading">Welcome to my website</p></div>
-			<div id="main">
-			<div id="mainleft1">
+		<title>Index</title>
+		<link rel="stylesheet" type="text/css" href="application.css">
+	</head>
+	<body>
+		<div id="modernHeader"><p id="heading">Welcome to my website</p></div>
+		<div id="footerTest"><p>Place footer information here</p></div>
+		<div id="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Blog.html">Blog</a></li>
+				<li><a href="navbox2.html">Navbox 2</a></li>
+				<li><a href="navbox3.html">Navbox 3</a></li>
+				<li><a href="jobRoles.html">Job Roles</a></li>
+			</ul>
+		</div>
+		<div id="main">
 			<h3>Introduction</h3>
 				<p>This is a journal of my web development.</p>
 			<h4>23rd September 2017</h4>
@@ -45,80 +54,80 @@
 				different types of borders: dotted, dashed, solid, double, 
 				groove, ridge, inset, outset. When specifying the css code 
 				it should follow this example convention: border: 1em solid red;</p>
-			<p class="boxed">Padding - When you want to padding around a paragraph 
-			or other elements you sometimes want to create a bit of breathing space - 
-			ie white space between the border and whats inside.</p>
-		<h4>27th September 2017</h4>
-			<p>Inheritance - html page is organised into parents and children. 
-			When you style in css the inheritance can be overwritten with a new 
-			value. When you override an inherited size with ane em value the new 
-			em value is relative to the inherited size</p>
-		<h4>28th September 2017</h4>	
-			<p>Grouping - You can group elements to style your code. Grouping 
-			example h2, h4 {color: blue;} would group both h2 and h4 heading 
-			and the colour would be blue. Completed inheritance exersice on 
-			Smater way to learn HTML and CSS</p>
-		<h4>29th September 2017</h4>	
-			<p>An id is similar to a class but more exclusive. An id can only be assigned 
-			once to an HTML document. In this example i am going to code an h5 heading 
-			with an id:, see below
-		<h5 id="idHeading">This is an ID HEADING</h5>
-		<h4>28th September</h4>
-			<p>See footer for div example</p>
-		<h4>29th September</h4>
-			<p>Images fall in the natural flow of html and are defaulted to display 
-			on the left side of the screen. See example of image</p> <img src="images/tv1.jpg">
-		<h4>30th September 2017</h4>
-			<p>Review sync conflicts</p>
-			<p>IMG SRC - Including addition tag information to image src example 
-			<"img src="image/picture.jpb alt="test picture" width=50 height=50"></p>
-			<p>For some reason the <"footer"> tag i created is to demonstrate 
-			the div example is missing as well as the <"img src"> tag example 
-			so i will need to check on my updates on github and see if i can 
-			restores this. I found the file stored on notepad++ which didn't 
-			sync with the version on GitHub. I have copied and pasted the div 
-			and footer code directly into GitHub and synced the data.</p>
-			<p>Block vs inline - Most major html elements are block, headings, paragraphs, 
-			lists, tables, divs. This means the browser does not put any other elements 
-			beside it so any new block element you create will start on a new line. 
-			Block elements can be placed side by side using the style FLOAT. 
-			Inline elements such as image, and href will sit side by side another 
-			element, however you can style this to display as a block element by 
-			using css style display: block;</p>
-			<p>For some reason the <"footer"> tag i created is to demonstrate the div example 
-			is missing as well as the <"img src"> tag example so i will need to check on my 
-			updates on github and see if i can restores this. I found the file stored on 
-			notepad++ which didn't sync with the version on GitHub. I have copied and 
-			pasted the div and footer code directly into GitHub and synced the data.</p>
-			<p>Block vs inline - Most major html elements are block, headings, paragraphs, 
-			lists, tables, divs. This means the browser does not put any other elements 
-			beside it so any new block element you create will start on a new 
-			Block elements can be placed side by side using the style FLOAT. Inline elements such as image, 
-			and href will sit side by side another element, however you can style this to display as a block 
-			element by using css style display: block;</p>
-			<p>Include addtional information to imc src tag, see example 
-			<"img src="image/balloon.jpg alt="picture of balloon" width="50" height="50"></p>
- 		<h4>1st October</h4>
-			<p>Positioning an image. You can isolate an image on it's own line by using a css style 
-			display: block;. The browser positions the image to the left and you can use the 
-			margin-left style to move this across to the right. The example below shows an image 
-			displayed as a block with a left margin of 2em 
-			</p>
-			<img class="block1" src="images/tv1.jpg" alt="picture of tv" width="100" height="100">
-			<p>To Center an image use the following styling: img.centerImage { <br>display: block;<br> 
-			margin-left: auto;<br>margin-right: auto;<br>}<br>alternatively you can do the 
-			following margin: 0 auto 0 auto;  
-			<p>Float an image - If you want to create text next to an image you use the float styling, 
-			see example below:</p>
-			<p>img.textOnLeft {<br> float: right;<br>}<br>If you have a short paragraph and you have another
-			tag underneath this will also appear to the side of the image. To prevent this from 
-			happening you can style the following code: p.noWrap {<br>clear: both;<br>}<br></p>
-			<img class="textOnLeft" src="images/tv1.jpg" alt="picture of tv" width="300" height="300"><p>
-			The paragraph of this text should appear on the left and the image should appear on the right. I am
-			continuing typing to see if this text will wrap around the image. All being well the text should no
-			appear right next to the image</p>
-			<p class="noWrap">New parapraph shoud appear under image as the clear: both styling is applied</p>
-		<h4>2nd October 2017</h4>
+				<p class="boxed">Padding - When you want to padding around a paragraph 
+				or other elements you sometimes want to create a bit of breathing space - 
+				ie white space between the border and whats inside.</p>
+			<h4>27th September 2017</h4>
+				<p>Inheritance - html page is organised into parents and children. 
+				When you style in css the inheritance can be overwritten with a new 
+				value. When you override an inherited size with ane em value the new 
+				em value is relative to the inherited size</p>
+				<h4>28th September 2017</h4>	
+				<p>Grouping - You can group elements to style your code. Grouping 
+				example h2, h4 {color: blue;} would group both h2 and h4 heading 
+				and the colour would be blue. Completed inheritance exersice on 
+				Smater way to learn HTML and CSS</p>
+			<h4>29th September 2017</h4>	
+				<p>An id is similar to a class but more exclusive. An id can only be assigned 
+				once to an HTML document. In this example i am going to code an h5 heading 
+				with an id:, see below
+			<h5 id="idHeading">This is an ID HEADING</h5>
+			<h4>28th September</h4>
+				<p>See footer for div example</p>
+			<h4>29th September</h4>
+				<p>Images fall in the natural flow of html and are defaulted to display 
+				on the left side of the screen. See example of image</p> <img src="images/tv1.jpg">
+			<h4>30th September 2017</h4>
+				<p>Review sync conflicts</p>
+				<p>IMG SRC - Including addition tag information to image src example 
+				<"img src="image/picture.jpb alt="test picture" width=50 height=50"></p>
+				<p>For some reason the <"footer"> tag i created is to demonstrate 
+				the div example is missing as well as the <"img src"> tag example 
+				so i will need to check on my updates on github and see if i can 
+				restores this. I found the file stored on notepad++ which didn't 
+				sync with the version on GitHub. I have copied and pasted the div 
+				and footer code directly into GitHub and synced the data.</p>
+				<p>Block vs inline - Most major html elements are block, headings, paragraphs, 
+				lists, tables, divs. This means the browser does not put any other elements 
+				beside it so any new block element you create will start on a new line. 
+				Block elements can be placed side by side using the style FLOAT. 
+				Inline elements such as image, and href will sit side by side another 
+				element, however you can style this to display as a block element by 
+				using css style display: block;</p>
+				<p>For some reason the <"footer"> tag i created is to demonstrate the div example 
+				is missing as well as the <"img src"> tag example so i will need to check on my 
+				updates on github and see if i can restores this. I found the file stored on 
+				notepad++ which didn't sync with the version on GitHub. I have copied and 
+				pasted the div and footer code directly into GitHub and synced the data.</p>
+				<p>Block vs inline - Most major html elements are block, headings, paragraphs, 
+				lists, tables, divs. This means the browser does not put any other elements 
+				beside it so any new block element you create will start on a new 
+				Block elements can be placed side by side using the style FLOAT. Inline elements such as image, 
+				and href will sit side by side another element, however you can style this to display as a block 
+				element by using css style display: block;</p>
+				<p>Include addtional information to imc src tag, see example 
+				<"img src="image/balloon.jpg alt="picture of balloon" width="50" height="50"></p>
+			<h4>1st October</h4>
+				<p>Positioning an image. You can isolate an image on it's own line by using a css style 
+				display: block;. The browser positions the image to the left and you can use the 
+				margin-left style to move this across to the right. The example below shows an image 
+				displayed as a block with a left margin of 2em 
+				</p>
+				<img class="block1" src="images/tv1.jpg" alt="picture of tv" width="100" height="100">
+				<p>To Center an image use the following styling: img.centerImage { <br>display: block;<br> 
+				margin-left: auto;<br>margin-right: auto;<br>}<br>alternatively you can do the 
+				following margin: 0 auto 0 auto;  
+				<p>Float an image - If you want to create text next to an image you use the float styling, 
+				see example below:</p>
+				<p>img.textOnLeft {<br> float: right;<br>}<br>If you have a short paragraph and you have another
+				tag underneath this will also appear to the side of the image. To prevent this from 
+				happening you can style the following code: p.noWrap {<br>clear: both;<br>}<br></p>
+				<img class="textOnLeft" src="images/tv1.jpg" alt="picture of tv" width="300" height="300"><p>
+				The paragraph of this text should appear on the left and the image should appear on the right. I am
+				continuing typing to see if this text will wrap around the image. All being well the text should no
+				appear right next to the image</p>
+				<p class="noWrap">New parapraph shoud appear under image as the clear: both styling is applied</p>
+			<h4>2nd October 2017</h4>
 				<p>Links - You can use hyperlinks to direct users to pages on your site and 
 				external sites, see example <"a href="www.bbc.co.uk/sport">BBC sports home page</"a></p>
 				<p>If your linking to a webpage in the same on the same folder you can 
@@ -126,7 +135,7 @@
 				on your website on a different page you would enter <"a href="catalog/products.html">
 				catalogue products page<"/a></p>
 				<p>This example links to the job roles webpage <a href="jobRoles.html">Job Roles Link</a></p>
-		<h4>8th October</h4>
+			<h4>8th October</h4>
 				<p>I have been playing about with GitHub for a few hours this weekend. I downloaded 
 				Git Bash which took ages to install and then tried to get my project sync, but after 
 				several attempts was unable to get this to work so i deleted the repository and started 
@@ -137,7 +146,7 @@
 				read me file. I then cloned this to a folder on my pc. i copieied the  the HTML files 
 				in the folder with the readme file. After that open GitBash and used the following 
 				commands git add -A, git Status,  git commit -m "message" and git push</p>
-		<h4>9th October</h4>
+			<h4>9th October</h4>
 				<p>Linking to pages on a website - When you link to a page on your domain site you can skip 
 				the domain name. http://www.bbc.com is the same as http://www.bbc.com/index.html. If your linking to 
 				subfolders on your site you can skip the domain but you will need to include the subfolder names. If your linking down a level on your website you can use the following example <"href ="../products/text-editors.html">Frequently asked questions<"/a></p>
@@ -153,11 +162,11 @@
 				select the link, see example<br>a: active {<br>font-size: 1.25em;<br>}<br>
 				You can also change the appearance after you selected the link, see example 
 				a: visited {<br>color: green;<br>}<br></p>
-		<h4>10th October</h4>
+			<h4>10th October</h4>
 				<p>Clickable Images Links - You can use images to link to pages as well as text, see 
 				example: <a href="http://www.bbc.co.uk"></p>
 				<img src="images/tv1.jpg" alt="picture of tv" width="100" height="100"></a>
-		<h4>11th October</h4>
+			<h4>11th October</h4>
 				<p>Image Maps - An example of and image is If you have images of two buildings and you wanted 
 				to link each building to a different website see example code: 
 				<"img src="Buildings.jpg" alt="Two Buildings" width="500px" height="800px" usemap="#buildings"
@@ -168,44 +177,44 @@
 			<h4>15th October</h4>
 				<p>See example below of image map. Left side of the image creates a link to bbc website and the right
 				of the image links you to wikipedia.</p>	
-	<img src="images/tv1.jpg" alt="picture of tv" width="100" height="100" usemap="#link1">
-	<map name="link1"><area shape="rect" alt="bbc" coords="0,0,50,100" href="http://www.bbc.co.uk" target="_blank"></area></p>
-	<map name="link1"><area shape="rect" alt="wiki" coords="0,0,100,100" href="http://www.wikipedia.org" target="_blank"></area></map>
+				<img src="images/tv1.jpg" alt="picture of tv" width="100" height="100" usemap="#link1">
+				<map name="link1"><area shape="rect" alt="bbc" coords="0,0,50,100" href="http://www.bbc.co.uk" target="_blank"></area></p>
+				<map name="link1"><area shape="rect" alt="wiki" coords="0,0,100,100" href="http://www.wikipedia.org" target="_blank"></area></map>
 				<p>Bullet and numbered lists - you can created bullet list by using the ul tag. To create an ordered list use
 				the ol tag. Once you have decided what type of ilst you want to create use li tag. The example below is a
 				bullet list</p>
-	<p>Git commands. The most common git commands are as follows:</p>
+				<p>Git commands. The most common git commands are as follows:</p>
 				<ul>
-					<li>git add -A - This gets all the updates that have been made to the repository</li>
-					<li>git commit -m "commit message" - This commits your updates to the repository</li>
-					<li>git push - This pushes your updates to the repository and syncs to the master copy</li>
-					<li>git pull</li>
+				<li>git add -A - This gets all the updates that have been made to the repository</li>
+				<li>git commit -m "commit message" - This commits your updates to the repository</li>
+				<li>git push - This pushes your updates to the repository and syncs to the master copy</li>
+				<li>git pull</li>
 				</ul>
-			<p>Styling lists - Lists are made of text elements and can be styled by css. For instance, you might want to style a marging using a ul or ol tag. You can also style the li the same way by adding a margin. You can change the indent to a css style by adding the following code .indentMore {<br>
-			list-style-position: inside;<br>
-			}<br>
-			list-style-position: outside; is the default css style.</p>
-			<p>List style markers - You can also change the style of a marker in css. Eg you might want to code the following:
-			list-style-type: disc, square, circle or you might want to add your 
-			own custom marker which you can do by entering the following: ul.customMarker {<br>
+				<p>Styling lists - Lists are made of text elements and can be styled by css. For instance, you might want to style a marging using a ul or ol tag. You can also style the li the same way by adding a margin. You can change the indent to a css style by adding the following code .indentMore {<br>
+				list-style-position: inside;<br>
+				}<br>
+				list-style-position: outside; is the default css style.</p>
+				<p>List style markers - You can also change the style of a marker in css. Eg you might want to code the following:
+				list-style-type: disc, square, circle or you might want to add your 
+				own custom marker which you can do by entering the following: ul.customMarker {<br>
 				list-style-image: url("images/tv1.jpg" width="10px")<br>
 				}<br>
 				<ul class="customMarker width="10">
-					<li>One</li>
-					<li>Two</li>
+				<li>One</li>
+				<li>Two</li>
 				</ul></p>
-		<h4>October 16th</h4>
+			<h4>October 16th</h4>
 				<p>The default style list type for ordered lists is decimal 1, 2, 3 etc. You can this to decimal leading with 01, 02, 03.
-					You can also select lower-alpha, upper-alpha letters and also lower-roman, upper-roman numbers</p>
-		<h4>October 21st</h4>
+				You can also select lower-alpha, upper-alpha letters and also lower-roman, upper-roman numbers</p>
+			<h4>October 21st</h4>
 				<p>More css selectors - A css selector is anything on the first line that precedes the { bracket
 				so far you've learnt the following selectors:
 				<ol>
-					<li>An element selector like p img div</li>
-					<li>An element class selector like p.special img.pic div.important</li>
-					<li>A class selector tied to no particular element .pic .test .important</li>
-					<li>An element id selector p#special img#pic div#important</li>
-					<li>An id selector tied to no particular element #pic #sidebar #important</li>
+				<li>An element selector like p img div</li>
+				<li>An element class selector like p.special img.pic div.important</li>
+				<li>A class selector tied to no particular element .pic .test .important</li>
+				<li>An element id selector p#special img#pic div#important</li>
+				<li>An id selector tied to no particular element #pic #sidebar #important</li>
 				</ol>
 				You can can combine selectors to create more complicated selectors. Here's one: 
 				div.important p {
@@ -213,142 +222,141 @@
 				<p>To create a table you use the table tag and within this you create your column
 				and row tags see example below:
 				<table>
-					<tr>
-						<td>Row 1, Column 1</td>
-						<td>Row 1, Column 2</td>
-						<td>Row 1, Column 3</td>
-					</tr>
-						<tr>
-						<td>Row 2, Column 1</td>
-						<td>Row 2, Column 2</td>
-						<td>Row 3, Column 3</td>
-					</tr>
+				<tr>
+				<td>Row 1, Column 1</td>
+				<td>Row 1, Column 2</td>
+				<td>Row 1, Column 3</td>
+				</tr>
+				<tr>
+				<td>Row 2, Column 1</td>
+				<td>Row 2, Column 2</td>
+				<td>Row 3, Column 3</td>
+				</tr>
 				</table>
-			</p>
-		<h4>October 22nd</h4>
-			<p>If you want to add a table heading you would to enter the following
-			code: <"th scope="col">Column Heading</"th> likewise if you wanted to add row
-			headings you would enter <"th scope="row">Row Heading</"th> see table example
-			below:
-			<table>
+				</p>
+			<h4>October 22nd</h4>
+				<p>If you want to add a table heading you would to enter the following
+				code: <"th scope="col">Column Heading</"th> likewise if you wanted to add row
+				headings you would enter <"th scope="row">Row Heading</"th> see table example
+				below:
+				<table>
 				<thead>
-					<tr>
-						<th scope="col"></th>
-						<th scope="col">1pm</th>
-						<th scope="col">2pm</th>
-						<th scope="col">3pm</th>
-					</tr>
+				<tr>
+				<th scope="col"></th>
+				<th scope="col">1pm</th>
+				<th scope="col">2pm</th>
+				<th scope="col">3pm</th>
+				</tr>
 				</thead>
-					<tr>
-						<th scope="row">Gym</th>
-						<td>Dodge ball</td>
-						<td>Kick boxing</td>
-						<td>Sack Racing</td>
-					</tr>
-					<tr>
-						<th scope="row">Exercise Room</th>
-						<td>Spinning</td>
-						<td colspan="2">Yoga Marathan</td>
-					</tr>
-						<th scope="row">Pool</th>
-						<td colspan="3">Water Polo</td>
-			</table>
-			
-		</p>
-		<h4>October 23rd</h4>
-			<p>Creating spanned rows and columns using tables - Once you have selected the th scope="col" 
-			and th scope="row" you can then use the table data tag to merge table 
-			data using the td colspan="2" or td 
-			rowspan="2" tags</p>
-			<p>Table borders - By default no borders show in tables and when you select borders
-			using ccs styling the table will have a gap between in cell. To bring the table
-			borders together you can the enter the following css styling: table, th, td{<br>
-			border-collapse: collapse;<br>
-			border: solid black 1px;<br>
-}			</p>
-			<p>You can select individual table borders using css styling example border-top: 1px solid
-			black;.</p>
-			<p>Adding background colour - You can also add background colour using css styling 
-			to cells</p>
-			<p>Create padding in table cells - By default there is no table spacing between 
-			text and table cells. You can change this by adding padding using css styling</p>
-			<p>Create cell spacing - If you want to create cell spacing you can use the following
-			code: border-spacing 1em;. Note you use the element table and th td in css</p>
-			<p>Table widths - By default table cells fill by the size of content. You can change the
-			table cells by selecting the following css: th td {<br>width =20%;<br>
-			}<br>You can also change the table size using the following css styling: table {<br>
-			width: 75%;<br>
-			} Make sure that the width size is less than 100%</p>
-			<p>Table text align - You can change the text alignment using css. For instance you can
-			use text-align: left, right, center, and justify. You can also change the vertical-align: top,
-			center, or bottom.</p>
-		<h4>October 24th</h4>
-			<p>Forms - <"form action="send-email.php" method post"> [Here's where the form content is stored
-			where you enter the input fields and submit button]</"form> In this example when the form is 
-			entered and submitted by the user the form data is sent to a php program for processsing.
-			The programs url is "send-email.php. This is different from HTML. HTML is stored on the host server
-			but runs on the users browser. The php file can be sent via email or to a database for storage or to
-			process a credit card payment. There are different programs available on the web that allow you to
-			process form data eg Ruby, Python, Java etc. A good resource for finding and using scripts can be
-			found on the following website: https://hotscripts.com. 
-			<p>Form text input - The example below shows an example of a text input form<br>
-			<form action="send-email.php" method="post">Last Name:		<input type="text" name="Surname"
-			size="25" maxlength="40"></input><br>
-			Password:		<input type="password" name="password"
-			size="25" maxlength="25"></input></form>
-			If you want to  create a password field you would enter input type="password" instead of text</p>
-			<p>If you want to create a multi-line text box you enter the following code:
-			<"textarea name="message" rows="4" cols="30"></"textarea> See example below:<br>
-			<form action="send-email.php" method="post">Last Name: <input type="text" name="Surname"
-			size="25" maxlength="40"></input><br>
-			Password: <input type="password" name="password"
-			size="25" maxlength="25"></input><br><br>
-			Message: <textarea name="message" rows="4" cols="30"></textarea>
-			</form>
-			<p>Submit form - Let's add a submit button to the form. When the user clicks submit
-			the data is sent to the program (php or another program)that processes it. the HTML code you
-			enter is as follows: <"input type="submit" value="Send Message"></input></p>
-			<b</form> See code  below:
-			<form action="send-email.php" method="post">Last Name: <input type="text" name="Surname"
-			size="25" maxlength="40"></input><br>
-			Password: <input type="password" name="password"
-			size="25" maxlength="25"></input><br><br>
-			Message: <textarea name="message" rows="4" cols="30"></textarea>
-			<br>
-			<input type="submit" value="Send Message"></input>
-			</form>
-			</p>
-			<p>Form radio buttons - Radio buttons if you only want to select one choice. To give an
-			example you would enter something like: <"input type="radio" name="test" value="One"
-			checked="checked">One. The checked option is optional and is used to select a default 
-			radio button<br>
-			Here is what it looks like<br>
-			<form><input type="radio" name="test" value="One"
-			checked="checked">One<input type="radio" name="test" value="Two">Two
-			<input type="radio" name="test" value="Three">Three
-			</input></form>
-			</p>
-			<p>Form checkboxes - Checkboxes work almost the same as radio with the exception
-			that you can select multiple options. See below for example:<br>
-			<form><input type="checkbox" name="test" value="One"
-			checked="checked">One<input type="checkbox" name="test" value="Two">Two
-			<input type="checkbox" name="test" value="Three">Three
-			</input></form></p>
-			<p>Form Select Box - Select box is used when you have a list of multiple items
-			and you want the select one from the list. To do this you use the select name tag and
-			then enter the option value tag. see example below:<br>
-			Your county<br>
-			<form>
+				<tr>
+				<th scope="row">Gym</th>
+				<td>Dodge ball</td>
+				<td>Kick boxing</td>
+				<td>Sack Racing</td>
+				</tr>
+				<tr>
+				<th scope="row">Exercise Room</th>
+				<td>Spinning</td>
+				<td colspan="2">Yoga Marathan</td>
+				</tr>
+				<th scope="row">Pool</th>
+				<td colspan="3">Water Polo</td>
+				</table>
+				</p>
+			<h4>October 23rd</h4>
+				<p>Creating spanned rows and columns using tables - Once you have selected the th scope="col" 
+				and th scope="row" you can then use the table data tag to merge table 
+				data using the td colspan="2" or td 
+				rowspan="2" tags</p>
+				<p>Table borders - By default no borders show in tables and when you select borders
+				using ccs styling the table will have a gap between in cell. To bring the table
+				borders together you can the enter the following css styling: table, th, td{<br>
+				border-collapse: collapse;<br>
+				border: solid black 1px;<br>
+				}			</p>
+				<p>You can select individual table borders using css styling example border-top: 1px solid
+				black;.</p>
+				<p>Adding background colour - You can also add background colour using css styling 
+				to cells</p>
+				<p>Create padding in table cells - By default there is no table spacing between 
+				text and table cells. You can change this by adding padding using css styling</p>
+				<p>Create cell spacing - If you want to create cell spacing you can use the following
+				code: border-spacing 1em;. Note you use the element table and th td in css</p>
+				<p>Table widths - By default table cells fill by the size of content. You can change the
+				table cells by selecting the following css: th td {<br>width =20%;<br>
+				}<br>You can also change the table size using the following css styling: table {<br>
+				width: 75%;<br>
+				} Make sure that the width size is less than 100%</p>
+				<p>Table text align - You can change the text alignment using css. For instance you can
+				use text-align: left, right, center, and justify. You can also change the vertical-align: top,
+				center, or bottom.</p>
+			<h4>October 24th</h4>
+				<p>Forms - <"form action="send-email.php" method post"> [Here's where the form content is stored
+				where you enter the input fields and submit button]</"form> In this example when the form is 
+				entered and submitted by the user the form data is sent to a php program for processsing.
+				The programs url is "send-email.php. This is different from HTML. HTML is stored on the host server
+				but runs on the users browser. The php file can be sent via email or to a database for storage or to
+				process a credit card payment. There are different programs available on the web that allow you to
+				process form data eg Ruby, Python, Java etc. A good resource for finding and using scripts can be
+				found on the following website: https://hotscripts.com. 
+				<p>Form text input - The example below shows an example of a text input form<br>
+				<form action="send-email.php" method="post">Last Name:		<input type="text" name="Surname"
+				size="25" maxlength="40"></input><br>
+				Password:		<input type="password" name="password"
+				size="25" maxlength="25"></input></form>
+				If you want to  create a password field you would enter input type="password" instead of text</p>
+				<p>If you want to create a multi-line text box you enter the following code:
+				<"textarea name="message" rows="4" cols="30"></"textarea> See example below:<br>
+				<form action="send-email.php" method="post">Last Name: <input type="text" name="Surname"
+				size="25" maxlength="40"></input><br>
+				Password: <input type="password" name="password"
+				size="25" maxlength="25"></input><br><br>
+				Message: <textarea name="message" rows="4" cols="30"></textarea>
+				</form>
+				<p>Submit form - Let's add a submit button to the form. When the user clicks submit
+				the data is sent to the program (php or another program)that processes it. the HTML code you
+				enter is as follows: <"input type="submit" value="Send Message"></input></p>
+				<b</form> See code  below:
+				<form action="send-email.php" method="post">Last Name: <input type="text" name="Surname"
+				size="25" maxlength="40"></input><br>
+				Password: <input type="password" name="password"
+				size="25" maxlength="25"></input><br><br>
+				Message: <textarea name="message" rows="4" cols="30"></textarea>
+				<br>
+				<input type="submit" value="Send Message"></input>
+				</form>
+				</p>
+				<p>Form radio buttons - Radio buttons if you only want to select one choice. To give an
+				example you would enter something like: <"input type="radio" name="test" value="One"
+				checked="checked">One. The checked option is optional and is used to select a default 
+				radio button<br>
+				Here is what it looks like<br>
+				<form><input type="radio" name="test" value="One"
+				checked="checked">One<input type="radio" name="test" value="Two">Two
+				<input type="radio" name="test" value="Three">Three
+				</input></form>
+				</p>
+				<p>Form checkboxes - Checkboxes work almost the same as radio with the exception
+				that you can select multiple options. See below for example:<br>
+				<form><input type="checkbox" name="test" value="One"
+				checked="checked">One<input type="checkbox" name="test" value="Two">Two
+				<input type="checkbox" name="test" value="Three">Three
+				</input></form></p>
+				<p>Form Select Box - Select box is used when you have a list of multiple items
+				and you want the select one from the list. To do this you use the select name tag and
+				then enter the option value tag. see example below:<br>
+				Your county<br>
+				<form>
 				<select name="County">
-					<option value="Bedfordshire">Select a county</option>
-					<option value="Bedfordshire">Beds</option>
-					<option value="Herts" select="selected">Herts</option>
-					</form>
-					</p>
-			<p>Form Labels - To view a label for each selection you use the label tag
+				<option value="Bedfordshire">Select a county</option>
+				<option value="Bedfordshire">Beds</option>
+				<option value="Herts" select="selected">Herts</option>
+				</form>
+				</p>
+				<p>Form Labels - To view a label for each selection you use the label tag
 				This enables to select the text which is especially useful if you are
 				trying to select a radio button as these can be difficult to select,see example below:
-			<form><label><input type="checkbox" name="test" value="One"
+				<form><label><input type="checkbox" name="test" value="One"
 				checked="checked">One</label>
 				<label><input type="checkbox" name="test" value="Two">Two
 				</label>
@@ -377,12 +385,16 @@
 				<br>}<br>
 				I then changed created a margin-top styling on the mainLeft1 and mainright1
 				css styling to create a gap between the header.</p>
-				
-			</div>
-			<div id="mainright1">Test Test Test Test Test Test Test Test Test Test 
-			Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
-			Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
-			Test Test Test Test Test Test Test Test Test Test Test Test Test Test</div>
-			<div id="footerTest">Place footer information here</div>
+			<h4>November 4th</h4>
+				<p>Navigation Bar - Over the last couple of days I have been 
+				trying to create a vertigal navigation bar and been
+				struggling to get the position in the place I wanted. In order to
+				resolve get this to work I needed to correct the main div so that it
+				fell just below the navbar. Used the fixed position for the navbar
+				and the main body i used the absolute position so the text would flow</p>
+				<p>Once I created the navbar I copied this over to the other pages and
+				got the hypelinks working.</p>
+				<p>The footer position is now in a fixed position</p>
+		</div>
 	</body>
 </html>

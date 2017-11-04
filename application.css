@@ -1,42 +1,51 @@
 body {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
 	border: solid black 1px;
 }
 div#modernHeader {
 	width: 100%;
 	background-color: black;
 	position: fixed;
-	left: 0;
 	top: 0;
+	left: 0;
+}
+
+div#navbar {
+	position: fixed;
+	top: 3em;
+	display: inline-block;
+	width:90%;
+		
+}
+div#navbar ul li {
+	width: 100%;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	padding: .35em;
+	margin: 0 0 .15em 0;
+	font-size: 1em;
+	font-weight: 900;
+	clear: both;
+	
+	
 }
 p#heading {
 	color: white;
 	font-weight: 900;
 	margin-left: 2em;
 }
-div#mainleft1 {
-	width: 49%;
-	border: solid green 1px;
-	float: left;
-	margin: .15em;
-	padding: .15em;
-	margin-top: 3em;
-}
-div#mainright1 {
-	width: 49%;
-	border: solid blue 1px;
-	float: right;
-	margin: .15em;
-	padding: .15em;
-	margin-top: 3em;
+div#main {
+	position: absolute;
+	top: 13em;
 }
 div#footerTest {
-	margin-left: auto;
-	margin-right: auto;
-	border: solid blue 1px;
-	clear: both;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	color: white;
 }
 ul.customMarker {
 	list-style-image: url("images/tv2.jpg");
