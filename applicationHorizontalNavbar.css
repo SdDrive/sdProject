@@ -11,7 +11,6 @@ div#modernHeader {
 	background-color: #C0C0C0;
 }
 div#navbar {
-	display: block;
 	position: fixed;
 	top: 2.5em;
 	clear: both;
@@ -24,17 +23,18 @@ div#navbar ul{
 	list-style-type: none;
 	padding-left: 0;
 	display: inline-block;
-	margin-left: .5em;
 }
-
 div#navbar ul li a {
 	color: white;
 	text-decoration: none;
 	font-weight: 900;
 }
 div#navbar ul li {
-	padding: .3em 2em .3em 1em;
-	margin: 0 0 .25em .25em;
+	padding: .3em 1em .3em 1em;
+	margin-left: 1em;
+	display: inline;
+	width: auto;
+	float: left;
 }
 li.changeText {
 	background-color: blue;
@@ -44,7 +44,7 @@ li.changeText:hover {
 }
 li.changeText:active {
 	background-color: yellow;
-}
+}		
 p#heading {
 	color: white;
 	font-weight: 900;
@@ -52,8 +52,7 @@ p#heading {
 }
 div#main {
 	position: absolute;
-	top: 13.5em;
-	
+	top: 6em;
 }
 div#footerTest {
 	z-index: 3;
@@ -63,24 +62,4 @@ div#footerTest {
 	left: 0;
 	background-color: black;
 	color: white;
-}
-ul.customMarker {
-	list-style-image: url("images/tv2.jpg");
-}
-table, th, td{
-	border-collapse: collapse;
-	border: solid black 1px;
-}
-
-img.textOnLeft {
-	float: right;
-	padding-left: 1em;
-	padding-right: 1em;
-}
-img.block1 {
-	margin-left: 2em;
-}
-p.noWrap {
-	clear: both;
-	padding-top: 1em;
 }
