@@ -1,34 +1,42 @@
 body {
-	border: solid black 1px;
+	font-family: arial;
 }
 div#modernHeader {
+	z-index: 1;
 	width: 100%;
-	background-color: black;
 	position: fixed;
 	top: 0;
 	left: 0;
+	clear:both;
+	background-color: #C0C0C0;
+}
+div#navbar {
+	display: block;
+	position: fixed;
+	top: 2.5em;
+	clear: both;
+	z-index: 2;
+	left: 0;
+	width: 100%;
+	background-color: #d3d3d3;
+}
+div#navbar ul{
+	list-style-type: none;
+	padding-left: 0;
+	display: inline-block;
 }
 
-div#navbar {
-	position: fixed;
-	top: 3em;
-	display: inline-block;
-	width:90%;
-		
+div#navbar ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: 900;
 }
 div#navbar ul li {
-	width: 100%;
-	list-style-type: none;
-	text-decoration: none;
-	color: white;
+	padding: .3em 2em .3em 1em;
 	background-color: blue;
-	padding: .35em;
-	margin: 0 0 .15em 0;
-	font-size: 1em;
-	font-weight: 900;
-	clear: both;
-	
-	
+	margin: 0 0 .25em .25em;
+}
+		
 }
 p#heading {
 	color: white;
@@ -37,9 +45,11 @@ p#heading {
 }
 div#main {
 	position: absolute;
-	top: 13em;
+	top: 13.5em;
+	
 }
 div#footerTest {
+	z-index: 3;
 	position: fixed;
 	width: 100%;
 	bottom: 0;
